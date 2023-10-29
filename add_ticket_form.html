@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Jegy felvitele (admin), állomások listából</title>
+</head>
+<body>
+<h1>Jegy felvitele (admin), állomások listából</h1>
+<form action="add_ticket.php" method="post">
+    <label for="ticket_id">Jegy azonosító:</label>
+    <input type="text" name="ticket_id" id="ticket_id" required>
+    <br>
+    <label for="station">Állomás kiválasztása:</label>
+    <select name="station" id="station" required>
+        <option value="station1">Állomás 1</option>
+        <option value="station2">Állomás 2</option>
+        <option value="station3">Állomás 3</option>
+        <!-- Add more station options here -->
+    </select>
+    <br>
+    <label for="price">Ár:</label>
+    <input type="number" name="price" id="price" required>
+    <br>
+    <label for="available_quantity">Elérhető darab:</label>
+    <input type="number" name="available_quantity" id="available_quantity" required>
+    <br>
+    <input type="submit" value="Jegy felvitele">
+</form>
+</body>
+</html>

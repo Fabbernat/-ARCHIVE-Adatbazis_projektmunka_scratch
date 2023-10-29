@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Járat felvitele (admin)</title>
+</head>
+<body>
+<h1>Járat felvitele (admin)</h1>
+<form action="add_flight.php" method="post">
+    <label for="flight_id">Járat azonosító:</label>
+    <input type="text" name="flight_id" id="flight_id" required>
+    <br>
+    <label for="type">Típus:</label>
+    <input type="text" name="type" id="type" required>
+    <br>
+    <label for="departure">Induló állomás:</label>
+    <input type="text" name="departure" id="departure" required>
+    <br>
+    <label for="destination">Cél állomás:</label>
+    <input type="text" name="destination" id="destination" required>
+    <br>
+    <label for="date">Dátum:</label>
+    <input type="date" name="date" id="date" required>
+    <br>
+    <label for="time">Időpont:</label>
+    <input type="time" name="time" id="time" required>
+    <br>
+    <input type="submit" value="Járat felvitele">
+</form>
+</body>
+</html>

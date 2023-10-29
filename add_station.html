@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Állomás felvitele (admin)</title>
+</head>
+<body>
+<h1>Állomás felvitele (admin)</h1>
+<form action="add_station.php" method="post">
+    <label for="station_id">Állomás azonosító:
+        <input type="text" name="station_id" id="station_id" required>
+    </label>
+    <br>
+    <label for="name">Név:
+        <input type="text" name="name" id="name" required>
+    </label>
+    <br>
+    <label for="city">Város:
+        <input type="text" name="city" id="city" required>
+    </label>
+    <br>
+    <input type="submit" value="Állomás felvitele">
+</form>
+</body>
+</html>
