@@ -1,7 +1,6 @@
 <?php
-include_once "return_to_index.html";
-include_once "connect_to_database.php";
-
+include_once "utility/return_to_index.html";
+include_once "utility/connect_to_database.php";
 $databaseConnection = new ConnectToDatabase();
 
 // Use the getter method to retrieve data
