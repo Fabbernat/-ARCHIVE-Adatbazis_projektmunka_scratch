@@ -3,8 +3,8 @@ class connectToDatabase
 {
 // Connect to database
     private $dbHost = "localhost";
-    private $dbUser = "URX5VP";
-    private $dbPassword = "jelszo";
+    private $dbUser = "root";
+    private $dbPassword = "";
     private $dbName = "adatbazis";
     private $conn;
 
